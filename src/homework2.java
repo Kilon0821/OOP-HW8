@@ -7,6 +7,7 @@ public class homework2 {
 		float b;
 		String c = "", d = "";
 
+		
 		while (true) {
 			System.out.print(
 					"1.KeyboardScanner.class\n2.CheckOddEven.class\n3.StringComparator.class\n4.PrintNumberInWord.class\n5.Exit\ninsert Choice:");
