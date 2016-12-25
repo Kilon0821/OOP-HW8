@@ -2,7 +2,7 @@ package fcu.iecs.oop.pokemon2;
 
 import fcu.iecs.oop.pokemon.PokemonType;
 
-public class Pokemon {
+public abstract class Pokemon implements Fightable {
 	private String Name;
 	private PokemonType Type;
 	private int CP;
@@ -19,6 +19,11 @@ public class Pokemon {
 		return this.Name;
 	}
 	
+	public void SetName(String Name)
+	{
+		this.Name = Name;
+	}
+	
 	public PokemonType GetType()
 	{
 		return this.Type;
@@ -32,11 +37,6 @@ public class Pokemon {
 	public void SetCP(int CP)
 	{
 		this.CP = CP;
-	}
-
-	public void Attack()
-	{
-		
 	}
 	
 }
