@@ -13,7 +13,6 @@ public class Main {
 	    gym.fight(pkm1);
 	    gym.fight(pkm2);
 	    gym.fight(pkm3);
-
 	}
 
 }
